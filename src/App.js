@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import Header from './Header';
 
 function App() {
   // BEM naming convention
   return (
     <div className='app'>
-      <h1>React Amazon Clone 2021 🚀🚀🚀</h1>
+      <Header />
+      {/* <Home /> */}
     </div>
   );
 }
