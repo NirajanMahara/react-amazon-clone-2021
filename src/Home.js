@@ -31,21 +31,21 @@ function Home() {
 
         <div className='home__row'>
           <Product
-            id='0984782869'
+            id='0123456789'
             title='Dell XPS 15 - 11th Generation Intel® Core™ i7-11800H - NVIDIA® GeForce RTX™ 3050 Ti 4GB GDDR6 - 16GB DDR4 - 512GB M.2 PCIe NVMe SSD'
             price={2099.99}
             rating={3}
             image='https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/xps_notebooks/xps_15_9510/media-gallery/xs9510t_cnb_90000td110_bk.psd?fmt=pjpg&pscan=auto&scl=1&wid=4000&hei=4000&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&size=4000,4000'
           />
           <Product
-            id='0984782869'
+            id='1234567890'
             title='Apple iPad Pro 2021 (12.9-inch, Wi-Fi, 256GB) - Space Gray (M1 Processor)'
             price={1399}
             rating={2}
             image='https://images-na.ssl-images-amazon.com/images/I/81SGb5l%2BlZL._AC_SL1500_.jpg'
           />
           <Product
-            id='0984782869'
+            id='0987654321'
             title='Samsung Galaxy Note 10 Factory Unlocked Cell Phone with 12GB RAM & 256GB International Version - Aura Black Note10'
             price={1330}
             rating={1}
