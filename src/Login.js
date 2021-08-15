@@ -17,6 +17,13 @@ function Login() {
     e.preventDefault();
 
     // Do some fancy firebase register stuff...
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((auth) => {
+        // Successfully created a new user with email & password
+        console.log(auth);
+      })
+      .catch((error) => alert(error.message));
   };
 
   return (
