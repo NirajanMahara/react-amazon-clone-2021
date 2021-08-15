@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import { Link } from 'react-router-dom';
+import { auth } from './firebase';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -8,6 +9,14 @@ function Login() {
 
   const signIn = (e) => {
     e.preventDefault();
+
+    // Do some fancy firebase login stuff...
+  };
+
+  const register = (e) => {
+    e.preventDefault();
+
+    // Do some fancy firebase register stuff...
   };
 
   return (
@@ -37,7 +46,13 @@ function Login() {
             onChange={(event) => setPassword(event.target.value)}
           />
 
-          <button type='submit' className='login__signInButton'>Sign-In</button>
+          <button
+            type='submit'
+            onClick={signIn}
+            className='login__signInButton'
+          >
+            Sign-In
+          </button>
         </form>
 
         <p>
@@ -46,7 +61,7 @@ function Login() {
           Interest-Based Ads Notice.
         </p>
 
-        <button className='login__registerButton'>
+        <button onClick={register} className='login__registerButton'>
           Create your Amazon account
         </button>
       </div>
