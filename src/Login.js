@@ -6,6 +6,10 @@ function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  const signIn = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className='login'>
       <Link to='/'>
@@ -33,7 +37,7 @@ function Login() {
             onChange={(event) => setPassword(event.target.value)}
           />
 
-          <button className='login__signInButton'>Sign-In</button>
+          <button type='submit' className='login__signInButton'>Sign-In</button>
         </form>
 
         <p>
