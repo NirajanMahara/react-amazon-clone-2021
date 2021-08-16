@@ -49,6 +49,11 @@ function App() {
             <Checkout />
           </Route>
 
+          <Route path='/payment'>
+            <Header />
+            <h1>Im the Payment route 💲💵💳</h1>
+          </Route>
+
           <Route path='/'>
             <Header />
             <Home />
